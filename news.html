@@ -3574,7 +3574,7 @@
 							<img src="images/Eng-White.png" style="width:200px;height:auto;" class="mx-auto d-block">
 							<hr/>
 								<div align="center">
-								<p>Copyright &copy; 2015-2025 JAIN Research Lab - All Rights Reserved</p>
+								<p>Copyright &copy; <span id="year"></span> JAIN Research Lab - All Rights Reserved</p>
 								</div>
 							</div>
 						</div>
@@ -3625,5 +3625,9 @@
 	    });
 	});
 	</script>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
