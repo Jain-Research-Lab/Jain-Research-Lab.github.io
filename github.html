@@ -397,23 +397,27 @@
 
 	</main>
 
-	<!-- ── Footer (matches existing site) ── -->
-	<footer id="footer">
-		<div class="footer-top bg-shark">
-			<div class="container padding-top-30">
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="holder">
-							<img src="./images/Eng-White.png" style="width:200px;height:auto;" class="mx-auto d-block">
-							<hr/>
-							<div align="center">
-								<p>Copyright © 2015-2023 JAIN Research Lab - All Rights Reserved</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+	<!-- footer of the page --> 
+	<footer id="footer"> 
+	    <!-- footer top --> 
+	    <div class="footer-top bg-shark"> 
+	        <div class="container padding-top-30"> 
+	            <div class="row"> 
+	                <div class="col-xs-12"> 
+	                    <div class="holder"> 
+	                        <img src="./images/Eng-White.png" style="width:200px;height:auto;" class="mx-auto d-block"> 
+	                        <hr/> 
+	                        <div align="center"> 
+	                            <p>Copyright © <span id="current-year"></span> JAIN Research Lab - All Rights Reserved</p> 
+	                        </div> 
+	                        <script>
+	                            document.getElementById('current-year').textContent = new Date().getFullYear();
+	                        </script> 
+	                    </div> 
+	                </div> 
+	            </div> 
+	        </div> 
+	    </div> 
 	</footer>
 
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
