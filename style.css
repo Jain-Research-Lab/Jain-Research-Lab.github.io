@@ -644,6 +644,10 @@ body {
 	padding-left: 96px;
 }
 
+#footer .footer-top p {
+    color: #f2f2f2;
+}
+
 .f-iconbox .icon {
 	left: 0;
 	top: 7px;
