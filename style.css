@@ -18243,3 +18243,11 @@ body {
 	}
 }
 
+.news-carousel-img {
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
