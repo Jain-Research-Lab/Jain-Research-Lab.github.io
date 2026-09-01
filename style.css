@@ -18244,11 +18244,11 @@ body {
 }
 
 .news-carousel-img {
-    width: 350px !important;
+    width: 450px !important;
     max-width: 500px;
-    height: 350px !important;
-    object-fit: cover;
+    height: 450px !important;
+    object-fit: contain;
+    background-color: #f0f0f0; 
     display: block;
     margin: 0 auto;
 }
-
