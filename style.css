@@ -8297,7 +8297,7 @@ body {
 10-7. menu article Styles / .menu-article
 10-8. book block Styles / .book-block
 10-9. finest chef Styles / .finest-chef
-10-10. chef carousel Styles / .chef-carousel
+10-10. chef usel Styles / .chef-usel
 
 -------------------------------------------------------------------*/
 
@@ -8814,14 +8814,14 @@ body {
 }
 
 /*------------------------------------------------------------------
-10-10. chef carousel Styles / .chef-carousel
+10-10. chef usel Styles / .chef-usel
 -------------------------------------------------------------------*/
 
-.chef-carousel {
+.chef-usel {
 	margin: 0 -20px 0 0;
 }
 
-.chef-carousel .beans-slide {
+.chef-usel .beans-slide {
 	float: left;
 	color: #8f8f8f;
 	position: relative;
@@ -8831,49 +8831,49 @@ body {
 	border: 1px solid #ddd;
 }
 
-.dark .chef-carousel .beans-slide {
+.dark .chef-usel .beans-slide {
 	background: #191919;
 	border-color: #494949;
 }
 
-.chef-carousel .beans-slide:hover .slide-over {
+.chef-usel .beans-slide:hover .slide-over {
 	opacity: 1;
 }
 
-.chef-carousel .img-box {
+.chef-usel .img-box {
 	overflow: hidden;
 	margin: 0 -10px 24px;
 }
 
-.chef-carousel h3 {
+.chef-usel h3 {
 	color: #2a2a2a;
 	margin: 0 0 6px;
 	text-transform: capitalize;
 	font: 700 24px/28px "Playfair Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.dark .chef-carousel h3 {
+.dark .chef-usel h3 {
 	color: #fff;
 }
 
-.chef-carousel .title {
+.chef-usel .title {
 	display: block;
 	margin: 0 0 25px;
 	text-transform: uppercase;
 	font-weight: 400;
 }
 
-.chef-carousel .slick-dots {
+.chef-usel .slick-dots {
 	position: static;
 }
 
-.chef-carousel .slick-dots li {
+.chef-usel .slick-dots li {
 	padding: 0 2px;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.chef-carousel .slick-dots li.slick-active button {
+.chef-usel .slick-dots li.slick-active button {
 	background: #2a2a2a;
 }
 
@@ -18244,10 +18244,11 @@ body {
 }
 
 .news-carousel-img {
-    width: 100%;
+    width: 350px !important;
     max-width: 500px;
-    height: 350px;
+    height: 350px !important;
     object-fit: cover;
     display: block;
     margin: 0 auto;
 }
+
